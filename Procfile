@@ -1,1 +1,2 @@
-web: bundle exec peeple server -p $PORT
+web: python web.py
+web: gunicorn web:app --log-file=-
