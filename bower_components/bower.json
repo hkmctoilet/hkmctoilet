@@ -1,0 +1,20 @@
+{
+  "name": "bower_components",
+  "homepage": "https://github.com/hkmctoilet/hkmctoilet",
+  "authors": [
+    "lkj1197 <lkjljs1197@naver.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "package": "^0.1.2"
+  }
+}
