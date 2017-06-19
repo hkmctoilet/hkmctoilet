@@ -1,0 +1,1 @@
+web: bundle exec peeple server -p $PORT
