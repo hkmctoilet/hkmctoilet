@@ -1,3 +1,8 @@
+	app.listen(process.env.PORT || 8080, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+	});
+
+
 	var myApp = angular.module("myApp",["ngRoute"]);
 	myApp.config(function($routeProvider){
 		$routeProvider
